@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developer.rdguzman.agendatelefonica.PerfilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgUsuario"
+            android:layout_width="129dp"
+            android:layout_height="99dp"
+            android:adjustViewBounds="false"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            app:srcCompat="@drawable/usuario"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="0dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/lblNombrePe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rey David"
+                android:textColor="@android:color/white"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/lblApellidoPPE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guzman"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/lblApellidoMPe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Santiago"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblTelefono"/>
+
+        <TextView
+            android:id="@+id/lblTelefonoPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="971-1468097"
+            android:textSize="24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo:"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/lblTipoPe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="casa"
+            android:textSize="24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblCorreo"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/lblCorreoPe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="david@hotmail.com"
+            android:textSize="24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDireccion"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/lblDireccionPe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texcoco, Edo de mexico"
+            android:textSize="24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_edit"
+            android:layout_marginRight="25dp"/>
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_delete"
+            android:layout_marginLeft="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>

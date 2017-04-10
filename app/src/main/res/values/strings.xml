@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AgendaTelefonica</string>
+    <string name="lblNombre">Nombre: </string>
+    <string name="lblApellidoP">Apellido Paterno: </string>
+    <string name="lblApellidoM">Apellido Materno: </string>
+    <string name="lblCorreo">Email: </string>
+    <string name="lblDireccion">Direccion: </string>
+    <string name="lblTelefono">Telefono: </string>
+    <string-array name="spinTelefono">
+        <item>Casa</item>
+        <item>Movil</item>
+        <item>Trabajo</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string name="txtNombre">Ingrese Nombre </string>
+    <string name="txtApellido">Ingrese Apellido</string>
+    <string name="txtTelefono">Ingrese Numero Telefonico</string>
+    <string name="txtCorreo">Ingrese Correo</string>
+    <string name="txtDireccion">Ingrese Direccion</string>
+</resources>
